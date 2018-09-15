@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PresentationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="More about me"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/scrollView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Constraint1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#1a1f3b"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:text="To Motivation"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/Constraint1"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:background="@color/LightBlue"
+        app:layout_constraintBottom_toTopOf="@id/textView2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/LightBlue"
+            android:gravity="center_vertical"
+            android:text="Presentation Screen"
+            android:textColor="#FFFFFF"
+            android:textFontWeight="Center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/back"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+
+            android:background="@android:color/transparent"
+            android:foreground="?attr/actionModeCloseDrawable"
+            android:foregroundGravity="center|clip_vertical|clip_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/textView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.692" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Constraint1">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:isScrollContainer="true"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:scrollHorizontally="false"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarThumbVertical="?android:attr/fastScrollThumbDrawable"
+            android:scrollbars="vertical"
+            android:text="@string/PScreen"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

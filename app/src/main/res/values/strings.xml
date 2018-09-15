@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MobileMeApp</string>
+    <string name="WScreen">Hi, my name is Ahmed and I like to play video games,
+        enjoy some football with my friends or just take a long walk down the beach in my free time.
+    </string>
+    <string name="PScreen">
+        I am currently a 3rd year university student studying for a degree in Software and Internet Technologies
+        in the Technical University of Varna. I became interested in programming, because of video games,
+        but once I started learning programming I saw there is more to that than video games.
+        I have only 1 calculator made on android project and not much experience with java .
+        I am more experienced with c++ , but still I am just a beginner in any language really.
+        Experience comes with time and I believe I will be experienced in couple of years in at least
+        1 programming language.
+        I would describe myself as a highly motivated to pursue a career in Software Engineering
+        and open for knowledge type of person. I don\'t have much knowledge in the field of Programming
+        ,but nonetheless I am really passionate about it.
+
+    </string>
+    <string name="MScreen">
+        I am motivated to work, because as every young person I want to have my own place
+        in this world. I want to learn programming so I can make software that one day
+        will be used and helpful for the users and hopefully make their life easier,
+        but also something that will be useful for the users. That will make me feel
+        that I am helping this world with small steps every day. Also money is another
+        motivation, but for that I need experience and knowledge I still do not possess
+        and that\'s what I want for now to become a good programmer in 5-10 years.
+        To learn company level standards to software building and testing.
+        I applied for an Internship in FlatRock ,
+        because I felt I wanted to broaden my knowledge by experiencing how the workflow is in
+        a big company. I really want one day to become a good programmer and solve problems.
+        I decided to apply for Android Internship, because with technologies referring to mobile
+        devices, smart watches and anything we carry everywhere in our daily lives being
+        available to more people than ever before , the need for software solutions on these devices
+        is more than ever before and I feel like I want to be part of the making of these
+        software solutions.
+
+    </string>
+</resources>
